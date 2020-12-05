@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54">
+    <defs>
+        <linearGradient id="315lhizjhb" x1=".143" x2=".617" y1="-.109" y2="1.051" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="red" stop-opacity=".204"/>
+            <stop offset="1" stop-color="#545454" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="ogm6630qmd" x1="1.227" x2="-.062" y1="1.44" y2="-.057" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#4c45ff"/>
+            <stop offset="1" stop-color="#301fff" stop-opacity="0"/>
+        </linearGradient>
+        <filter id="2qq7tdruea" width="54" height="54" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="2"/>
+            <feGaussianBlur result="blur" stdDeviation="3"/>
+            <feFlood flood-opacity=".365"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="0r4cg1njlc" width="54" height="54" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="2"/>
+            <feGaussianBlur result="blur-2" stdDeviation="3"/>
+            <feFlood flood-opacity=".365"/>
+            <feComposite in2="blur-2" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g>
+        <g filter="url(#2qq7tdruea)" transform="translate(-22 -386) translate(22 386)">
+            <circle cx="18" cy="18" r="18" fill="url(#315lhizjhb)" transform="translate(9 7)"/>
+        </g>
+        <g filter="url(#0r4cg1njlc)" transform="translate(-22 -386) translate(22 386)">
+            <circle cx="18" cy="18" r="18" fill="url(#ogm6630qmd)" transform="translate(9 7)"/>
+        </g>
+    </g>
+</svg>
